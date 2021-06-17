@@ -99,7 +99,7 @@ namespace OngoingWarehouse.Sdk
       {
          var binding = new BasicHttpBinding
          {
-            MaxReceivedMessageSize = int.MaxValue,
+            MaxReceivedMessageSize = long.MaxValue,
             MaxBufferSize = int.MaxValue,
             SendTimeout = new TimeSpan(0, 5, 0),
          };
